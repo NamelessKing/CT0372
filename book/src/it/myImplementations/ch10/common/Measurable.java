@@ -1,7 +1,10 @@
 package it.myImplementations.ch10.common;
 
 public interface Measurable {
-    default double getMeasure(){return 0;}
+
+     default double getMeasure(){
+         return 0;
+     }
 
     /**
      * Computes the average of the measures of the given objects
