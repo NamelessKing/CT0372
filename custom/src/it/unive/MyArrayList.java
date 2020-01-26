@@ -54,26 +54,35 @@ public class MyArrayList<T> implements Iterable<T> {
     public static void main(String[] args) {
         // MyArrayList Implementation
         System.out.println("MyArrayList");
+
         MyArrayList<String> a = new MyArrayList<>(10);
+
         a.set(5, "Happy");
         a.set(6, "Christmas");
+
         for (String s : a) {
             System.out.println(s);
         }
+
         // ArrayList implementation
         System.out.println("\nArrayList\n");
+
         ArrayList<String> b = new ArrayList<>();
         for (int i=0; i < 10; i++) {
             b.add(null);
         }
+
         b.set(5, "Happy");
         b.set(6, "Christmas");
+
         for (String s : b) {
             System.out.println(s);
         }
+
         // handwritten foreach
         System.out.println("\nHandwritten\n");
-        Iterator<String> iterator = b.iterator();
+        Iterator<String> iterator = a.iterator();
+
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }

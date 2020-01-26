@@ -6,7 +6,7 @@ import it.myImplementations.ch10.common.Measurable;
  A bank account has a balance that can be changed by
  deposits and withdrawals.
  */
-public class BankAccount implements Measurable
+public class BankAccount implements Measurable, Comparable
 {
 
     private double balance;
@@ -58,5 +58,11 @@ public class BankAccount implements Measurable
     public double getMeasure()
     {
         return balance;
+    }
+
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
