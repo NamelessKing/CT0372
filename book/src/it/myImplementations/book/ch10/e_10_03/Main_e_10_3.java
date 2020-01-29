@@ -1,4 +1,4 @@
-package it.myImplementations.book.ch10.e_10_3;
+package it.myImplementations.book.ch10.e_10_03;
 
 public class Main_e_10_3 {
 

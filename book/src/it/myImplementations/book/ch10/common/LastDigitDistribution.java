@@ -1,9 +1,6 @@
-package it.myImplementations.book.ch10.complete_examples.Sequence;
-
-import it.myImplementations.book.ch10.common.Sequence;
+package it.myImplementations.book.ch10.common;
 
 public class LastDigitDistribution {
-
 
     private int[] counters;
 

@@ -1,4 +1,4 @@
-package it.myImplementations.book.ch10.e_10_3;
+package it.myImplementations.book.ch10.e_10_03;
 
 import it.myImplementations.book.ch10.common.Measurable;
 import it.myImplementations.book.ch10.common.Named;

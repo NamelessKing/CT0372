@@ -42,4 +42,16 @@ public class Data {
         return maxOfMeasures;
     }
 
+    public static Measurable max(Measurable[] measurables, Measurer measurer){
+        Measurable largest = measurables[0];
+        for (Measurable o : measurables)
+        {
+            if (measurer.measure(o) > measurer.measure(largest))
+            {
+                largest = o;
+            }
+        }
+        return largest;
+    }
+
 }
